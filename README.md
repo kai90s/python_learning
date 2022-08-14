@@ -1,1 +1,1 @@
-# python_learning
+# My learnings from Python class ^_^
