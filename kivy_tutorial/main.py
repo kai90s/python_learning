@@ -14,7 +14,7 @@ class MyGrid(GridLayout):
         self.inside.cols = 2
 
         self.inside.add_widget(Label(text="First Name: "))
-        self.name = TextInput(multiline=False)
+        self.name = TextInput(multinline=False)
         self.inside.add_widget(self.name)
 
         self.inside.add_widget(Label(text="Last Name: "))
@@ -42,6 +42,7 @@ class MyGrid(GridLayout):
         self.name.text= ""
         self.LastName.text= ""
         self.email.text= ""
+
 class MyApp(App):
     def build(self):
         return MyGrid()
